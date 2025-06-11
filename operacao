@@ -1,0 +1,54 @@
+operacao = """
+
+[s] Soma
+[d] Diferença
+[m] Multiplicação
+[/] Divisão
+
+=> """
+
+while True:
+    operador = input(operacao)
+
+    if operador == "s":
+        resultado = float(input("Digite o primeiro valor: ")) + float(input("Digite o segundo valor: "))
+        print(f"O valor da soma é: {resultado}")
+        
+        if operador == "d":
+            resultado = float(input("Digite o primeiro valor:")) - float(input("Digite o segundo valor:"))
+operacao = """
+
+[s] Soma
+[d] Diferença
+[m] Multiplicação
+[/] Divisão
+
+=> """
+
+while True:
+    operador = input(operacao)
+
+    if operador == "s":
+        resultado = float(input("Digite o primeiro valor: ")) + float(input("Digite o segundo valor: "))
+        print(f"O valor da soma é: {resultado}")
+
+    elif operador == "d":
+        resultado = float(input("Digite o primeiro valor:")) - float(input("Digite o segundo valor:"))
+        print(f"O valor da diferença é: {resultado}")
+
+    elif operador == "m":
+        resultado = float(input("Digite o primeiro valor:")) * float(input("Digite o segundo valor:"))
+        print(f"O valor da multiplicação é: {resultado}")
+
+    elif operador == "/":
+        resultado = float(input("Digite o primeiro valor:")) / float(input("Digite o segundo valor:"))
+        print(f"O valor da divisão é: {resultado}")
+
+    else:
+        print("Operação invalida")
+        continue
+
+              
+
+
+
